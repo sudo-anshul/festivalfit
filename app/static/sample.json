@@ -1,0 +1,396 @@
+{
+  "schema_version": "2.0",
+  "report_id": "cebe76bf7ca5ee6e04807d90",
+  "mode": "sample",
+  "film": {
+    "title": "The Last Light",
+    "genre": "Fiction",
+    "runtime_minutes": 18,
+    "runtime_seconds": 0,
+    "country": "India",
+    "completed_on": "2026-07-01",
+    "premiere_status": "World premiere available",
+    "region": "Worldwide",
+    "synopsis": "A young projectionist brings her town's abandoned cinema back to life for one final screening.",
+    "medium": "Live action",
+    "production_countries": [
+      "India"
+    ],
+    "shooting_countries": [],
+    "languages": [
+      "Hindi"
+    ],
+    "subtitles": [
+      "English"
+    ],
+    "completion_status": "completed",
+    "screenings": [],
+    "prior_submissions": [],
+    "prior_submissions_known": false,
+    "student_status": "unknown",
+    "goals": [
+      "Find the right audience"
+    ],
+    "budget": 150.0,
+    "max_fee": null,
+    "currency": "USD",
+    "submission_until": null,
+    "research_mode": "quick",
+    "focus_festival": ""
+  },
+  "created_at": "2026-09-08T14:30:00+00:00",
+  "research_mode": "quick",
+  "completion": "complete",
+  "festivals": [
+    {
+      "id": "58a71b0aafa35d0d",
+      "name": "Lantern Frames",
+      "edition": "2027",
+      "category": "International narrative shorts",
+      "status": "likely_fit",
+      "reason": "6 of 6 extracted requirements are supported for this profile.",
+      "deadline": "2026-10-15",
+      "deadline_timezone": null,
+      "fee": {
+        "amount": 45.0,
+        "currency": "USD",
+        "tier": "Standard",
+        "source_id": "S1",
+        "quote": "Submission entry fee: USD 45. Standard tier."
+      },
+      "url": "https://example.com/fictional-festival-1",
+      "source_id": "S1",
+      "checks": [
+        {
+          "criterion": "runtime",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "Runtime 18 min; quoted limit at most 30 min, including the supplied seconds.",
+          "quote": "Films in this category must be no longer than 30 minutes, including credits.",
+          "source_id": "S1",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "genre",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The quoted category explicitly accepts fiction.",
+          "quote": "This category accepts narrative fiction films.",
+          "source_id": "S1",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "country",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The source explicitly permits entries across countries.",
+          "quote": "Submissions are accepted from filmmakers in all countries, including India.",
+          "source_id": "S1",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "premiere",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "Declared world-premiere availability meets the quoted requirement; all screening history must be included.",
+          "quote": "Films with their world premiere still available are eligible.",
+          "source_id": "S1",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "completion",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "Completion 2026-07-01 compared with the quoted 2026-01-01 boundary.",
+          "quote": "Films completed on or after January 1, 2026 are eligible.",
+          "source_id": "S1",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "deadline",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The cited submission date is ahead; closing time and applicable round still need confirmation.",
+          "quote": "The submission deadline for this category is 2026-10-15.",
+          "source_id": "S1",
+          "reason_code": "date_rule"
+        }
+      ],
+      "next_steps": [
+        "Confirm the closing time, fee tier and category for 2026-10-15 before applying.",
+        "Check complete rules, screening rights and required materials before paying. Selection is not guaranteed."
+      ],
+      "scope_issues": [],
+      "scope_status": "scoped",
+      "coverage_note": "Only extracted rules were evaluated. Complete eligibility and source ownership require confirmation.",
+      "matched": 6,
+      "total": 6,
+      "unresolved": [],
+      "blockers": []
+    },
+    {
+      "id": "352d164a7656e038",
+      "name": "Open Frame Weekend",
+      "edition": "2027",
+      "category": "Independent voices",
+      "status": "review_required",
+      "reason": "5 of 6 extracted requirements are supported for this profile. Still to verify: premiere status.",
+      "deadline": "2026-11-02",
+      "deadline_timezone": null,
+      "fee": {
+        "amount": 55.0,
+        "currency": "USD",
+        "tier": "Standard",
+        "source_id": "S2",
+        "quote": "Submission entry fee: USD 55. Standard tier."
+      },
+      "url": "https://example.com/fictional-festival-2",
+      "source_id": "S2",
+      "checks": [
+        {
+          "criterion": "runtime",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "Runtime 18 min; quoted limit at most 25 min, including the supplied seconds.",
+          "quote": "Films in this category must be no longer than 25 minutes, including credits.",
+          "source_id": "S2",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "genre",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The quoted category explicitly accepts fiction.",
+          "quote": "This category accepts narrative fiction films.",
+          "source_id": "S2",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "country",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The source explicitly permits entries across countries.",
+          "quote": "Submissions are accepted from filmmakers in all countries, including India.",
+          "source_id": "S2",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "premiere",
+          "label": "",
+          "status": "unknown",
+          "kind": "requirement",
+          "explanation": "No matching quotation was found in retrieved evidence.",
+          "quote": null,
+          "source_id": null,
+          "reason_code": "missing_evidence"
+        },
+        {
+          "criterion": "completion",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "Completion 2026-07-01 compared with the quoted 2026-01-01 boundary.",
+          "quote": "Films completed on or after January 1, 2026 are eligible.",
+          "source_id": "S2",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "deadline",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The cited submission date is ahead; closing time and applicable round still need confirmation.",
+          "quote": "The submission deadline for this category is 2026-11-02.",
+          "source_id": "S2",
+          "reason_code": "date_rule"
+        }
+      ],
+      "next_steps": [
+        "Verify premiere status using complete current category rules and missing film facts.",
+        "Confirm the closing time, fee tier and category for 2026-11-02 before applying.",
+        "Check complete rules, screening rights and required materials before paying. Selection is not guaranteed."
+      ],
+      "scope_issues": [],
+      "scope_status": "scoped",
+      "coverage_note": "Only extracted rules were evaluated. Complete eligibility and source ownership require confirmation.",
+      "matched": 5,
+      "total": 6,
+      "unresolved": [
+        "premiere"
+      ],
+      "blockers": []
+    },
+    {
+      "id": "eb6f2514b1cba564",
+      "name": "First Light Showcase",
+      "edition": "2027",
+      "category": "Micro-short competition",
+      "status": "not_fit",
+      "reason": "A quoted requirement conflicts with this film: runtime.",
+      "deadline": "2026-09-25",
+      "deadline_timezone": null,
+      "fee": {
+        "amount": 25.0,
+        "currency": "USD",
+        "tier": "Standard",
+        "source_id": "S3",
+        "quote": "Submission entry fee: USD 25. Standard tier."
+      },
+      "url": "https://example.com/fictional-festival-3",
+      "source_id": "S3",
+      "checks": [
+        {
+          "criterion": "runtime",
+          "label": "",
+          "status": "not_met",
+          "kind": "requirement",
+          "explanation": "Runtime 18 min; quoted limit at most 10 min, including the supplied seconds.",
+          "quote": "Films in this category must be no longer than 10 minutes, including credits.",
+          "source_id": "S3",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "genre",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The quoted category explicitly accepts fiction.",
+          "quote": "This category accepts narrative fiction films.",
+          "source_id": "S3",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "country",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The source explicitly permits entries across countries.",
+          "quote": "Submissions are accepted from filmmakers in all countries, including India.",
+          "source_id": "S3",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "premiere",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "Declared world-premiere availability meets the quoted requirement; all screening history must be included.",
+          "quote": "Films with their world premiere still available are eligible.",
+          "source_id": "S3",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "completion",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "Completion 2026-07-01 compared with the quoted 2026-01-01 boundary.",
+          "quote": "Films completed on or after January 1, 2026 are eligible.",
+          "source_id": "S3",
+          "reason_code": "evaluated"
+        },
+        {
+          "criterion": "deadline",
+          "label": "",
+          "status": "met",
+          "kind": "requirement",
+          "explanation": "The cited submission date is ahead; closing time and applicable round still need confirmation.",
+          "quote": "The submission deadline for this category is 2026-09-25.",
+          "source_id": "S3",
+          "reason_code": "date_rule"
+        }
+      ],
+      "next_steps": [
+        "Do not submit to this category on the current evidence. Check: runtime.",
+        "Check complete rules, screening rights and required materials before paying. Selection is not guaranteed."
+      ],
+      "scope_issues": [],
+      "scope_status": "scoped",
+      "coverage_note": "Only extracted rules were evaluated. Complete eligibility and source ownership require confirmation.",
+      "matched": 5,
+      "total": 6,
+      "unresolved": [],
+      "blockers": [
+        "runtime"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Lantern Frames - 2027 edition - International narrative shorts.",
+      "url": "https://example.com/fictional-festival-1",
+      "excerpts": [
+        "Lantern Frames - 2027 edition - International narrative shorts.",
+        "FICTIONAL SAMPLE RULES. Films in this category must be no longer than 30 minutes, including credits. This category accepts narrative fiction films. Submissions are accepted from filmmakers in all countries, including India. Films with their world premiere still available are eligible. Films completed on or after January 1, 2026 are eligible. The submission deadline for this category is 2026-10-15.",
+        "Submission entry fee: USD 45. Standard tier."
+      ],
+      "retrieved_at": "2026-09-08T14:30:00+00:00",
+      "content_hash": null,
+      "retrieval": "search"
+    },
+    {
+      "id": "S2",
+      "title": "Open Frame Weekend - 2027 edition - Independent voices.",
+      "url": "https://example.com/fictional-festival-2",
+      "excerpts": [
+        "Open Frame Weekend - 2027 edition - Independent voices.",
+        "FICTIONAL SAMPLE RULES. Films in this category must be no longer than 25 minutes, including credits. This category accepts narrative fiction films. Submissions are accepted from filmmakers in all countries, including India. Films completed on or after January 1, 2026 are eligible. The submission deadline for this category is 2026-11-02.",
+        "Submission entry fee: USD 55. Standard tier."
+      ],
+      "retrieved_at": "2026-09-08T14:30:00+00:00",
+      "content_hash": null,
+      "retrieval": "search"
+    },
+    {
+      "id": "S3",
+      "title": "First Light Showcase - 2027 edition - Micro-short competition.",
+      "url": "https://example.com/fictional-festival-3",
+      "excerpts": [
+        "First Light Showcase - 2027 edition - Micro-short competition.",
+        "FICTIONAL SAMPLE RULES. Films in this category must be no longer than 10 minutes, including credits. This category accepts narrative fiction films. Submissions are accepted from filmmakers in all countries, including India. Films with their world premiere still available are eligible. Films completed on or after January 1, 2026 are eligible. The submission deadline for this category is 2026-09-25.",
+        "Submission entry fee: USD 25. Standard tier."
+      ],
+      "retrieved_at": "2026-09-08T14:30:00+00:00",
+      "content_hash": null,
+      "retrieval": "search"
+    }
+  ],
+  "trace": [
+    {
+      "stage": "plan",
+      "detail": "Example research plan",
+      "seconds": 0.0
+    },
+    {
+      "stage": "discover",
+      "detail": "Three fictional evidence sources",
+      "seconds": 0.0
+    },
+    {
+      "stage": "assess",
+      "detail": "Illustrative eligibility assessments",
+      "seconds": 0.0
+    },
+    {
+      "stage": "verify",
+      "detail": "Sample quotations checked against sample source text",
+      "seconds": 0.0
+    }
+  ],
+  "search_queries": [],
+  "duration_seconds": 0.0,
+  "followup": {},
+  "enrichment": {},
+  "model": "No model call — fictional sample",
+  "backend": ""
+}

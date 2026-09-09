@@ -1,0 +1,9 @@
+# Keep local configuration, tests and repository metadata out of the image.
+*
+!Dockerfile
+!requirements.txt
+!app/
+!app/**
+**/__pycache__/
+**/*.pyc
+**/.DS_Store

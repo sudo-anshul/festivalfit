@@ -1,0 +1,21 @@
+[project]
+name = "festivalfit"
+version = "0.1.0"
+description = "An evidence-first film festival research assistant powered by Gemini and Parallel."
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "google-genai>=1.0,<3",
+  "parallel-web>=1.1,<2",
+  "pydantic>=2.10,<3",
+  "python-dotenv>=1.0,<2",
+  "reportlab>=4.4,<5",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "httpx>=0.28,<1", "pytest-asyncio>=0.25,<2"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"

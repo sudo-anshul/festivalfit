@@ -1,0 +1,9 @@
+# Only these runtime files belong in the Cloud Build upload.
+*
+!Dockerfile
+!requirements.txt
+!app/
+!app/**
+app/**/__pycache__/
+app/**/*.pyc
+app/**/.DS_Store

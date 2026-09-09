@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+credentials*.json
+service-account*.json
+*.log
+*.zip
