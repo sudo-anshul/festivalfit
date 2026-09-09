@@ -50,6 +50,7 @@ async def status():
 
 
 @app.get("/healthz")
+@app.get("/api/health")
 async def health():
     return {"status": "ok"}
 

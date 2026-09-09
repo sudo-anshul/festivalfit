@@ -2,7 +2,7 @@
 
 Find your next audience. FestivalFit helps independent filmmakers build a submission shortlist from cited festival rules, then compare deadlines, fees and unresolved conditions before committing money.
 
-The fictional sample needs no credentials. Live research on Google Cloud Run requires a private demo code.
+**[Public demo](https://festivalfit-1064620464505.us-central1.run.app)** · The fictional sample needs no credentials. Live research on Google Cloud Run requires a private demo code.
 
 ## Decision workspace
 
@@ -54,7 +54,7 @@ Scope checks use retrieved text and category/edition labels; they do not establi
 
 | Endpoint | Purpose |
 | --- | --- |
-| `GET /healthz` | Health check |
+| `GET /api/health` | Public health check |
 | `GET /api/status` | Configuration presence, without secret values |
 | `GET /api/sample` | Canonical fictional report |
 | `POST /api/match` | Film profile → newline-delimited progress, partial report and final report |

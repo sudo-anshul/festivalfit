@@ -72,7 +72,7 @@ Optional script variables: `FESTIVALFIT_REGION`, `FESTIVALFIT_SERVICE`, `FESTIVA
 
 Deploying from source creates an Artifact Registry repository named `cloud-run-source-deploy`. Cloud Build stores build logs and uploaded source. `.gcloudignore` and `.dockerignore` allow only runtime files, so `.env`, git metadata, credentials, tests and local notes are excluded. Builds and storage have their own usage charges.
 
-Open the URL printed by deployment. Verify `/healthz`, `/api/status`, the sample, rejection of an incorrect live code, a real Quick and Detailed run, and PDF/Markdown/CSV/JSON downloads. Keep private codes out of public documentation, URLs and frontend assets.
+Open the URL printed by deployment. Verify `/api/health`, `/api/status`, the sample, rejection of an incorrect live code, a real Quick and Detailed run, and PDF/Markdown/CSV/JSON downloads. Use `/api/health` for public monitoring; Google Cloud's frontend can intercept the local `/healthz` alias. Keep private codes out of public documentation, URLs and frontend assets.
 
 Reference: [Cloud Run source deployment](https://cloud.google.com/run/docs/deploying-source-code).
 
